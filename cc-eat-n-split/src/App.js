@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { useState } from "react";
 
 const initialFriends = [
   {
@@ -81,6 +81,7 @@ export default function App() {
         <FormSplitBill
           selectedFriend={selectedFriend}
           onSplitBill={handleSplitBill}
+          key={selectedFriend.id}
         />
       )}
     </div>
