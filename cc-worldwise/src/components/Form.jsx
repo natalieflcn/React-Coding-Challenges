@@ -49,14 +49,13 @@ function Form() {
           );
           const data = await res.json();
 
-          console.log(data);
           if (!data.countryCode)
             throw new Error(
               "That doesn't seem to be a city. Click somewhere else."
             );
 
           setCityName(data.city || data.locality || "");
-          setCountry(data.country);
+          setCountry(data.countryName);
 
           if (!data.countryCode)
             throw new Error(

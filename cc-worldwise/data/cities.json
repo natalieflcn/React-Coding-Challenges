@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -37,91 +25,27 @@
       "id": "98443197"
     },
     {
-      "id": "7376",
-      "cityName": "Monticello",
-      "emoji": "🇺🇸",
-      "date": "2025-06-20T17:33:32.222Z",
-      "notes": "hjk",
+      "id": "33dd",
+      "cityName": "Moloundou",
+      "country": "Cameroon",
+      "emoji": "🇨🇲",
+      "date": "2025-06-21T05:27:11.602Z",
+      "notes": "njko",
       "position": {
-        "lat": "33.33970700424029",
-        "lng": "-83.84765625000001"
+        "lat": "2.2406396093827334",
+        "lng": "15.292968750000002"
       }
     },
     {
-      "id": "b4c8",
-      "cityName": "Budi",
-      "emoji": "🇸🇸",
-      "date": "2025-06-20T17:37:58.706Z",
-      "notes": "hjk",
-      "position": {
-        "lat": "4.258768357308007",
-        "lng": "33.83789062500001"
-      }
-    },
-    {
-      "id": "a0ae",
-      "cityName": "Siha",
-      "emoji": "🇹🇿",
-      "date": "2025-06-20T17:39:54.955Z",
-      "notes": "hjk",
-      "position": {
-        "lat": "-2.964984369333955",
-        "lng": "37.04589843750001"
-      }
-    },
-    {
-      "id": "bbd4",
-      "cityName": "Garba Tula",
+      "id": "0191",
+      "cityName": "Lake Turkana",
+      "country": "Kenya",
       "emoji": "🇰🇪",
-      "date": "2025-06-20T17:40:32.251Z",
-      "notes": "jkl",
+      "date": "2025-06-21T07:55:25.386Z",
+      "notes": "k",
       "position": {
-        "lat": "0.5932511181408705",
-        "lng": "38.47412109375001"
-      }
-    },
-    {
-      "id": "650d",
-      "cityName": "Isiolo",
-      "emoji": "🇰🇪",
-      "date": "2025-06-20T17:48:32.242Z",
-      "notes": "hj",
-      "position": {
-        "lat": "0.5712795966325395",
-        "lng": "37.33154296875001"
-      }
-    },
-    {
-      "id": "1399",
-      "cityName": "Kapenguria",
-      "emoji": "🇰🇪",
-      "date": "2025-06-20T18:00:30.274Z",
-      "notes": "jk",
-      "position": {
-        "lat": "1.5159363834516861",
-        "lng": "35.15625000000001"
-      }
-    },
-    {
-      "id": "c529",
-      "cityName": "Mambasa",
-      "emoji": "🇨🇩",
-      "date": "2025-06-20T18:00:30.274Z",
-      "notes": "jk",
-      "position": {
-        "lat": "2.482133403730576",
-        "lng": "29.575195312500004"
-      }
-    },
-    {
-      "id": "2862",
-      "cityName": "Manyoni",
-      "emoji": "🇹🇿",
-      "date": "2025-06-20T18:02:07.564Z",
-      "notes": "",
-      "position": {
-        "lat": "-6.315298538330033",
-        "lng": "34.65087890625001"
+        "lat": "2.9210970187084637",
+        "lng": "36.34277343750001"
       }
     }
   ]
