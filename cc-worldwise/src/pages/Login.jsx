@@ -4,13 +4,14 @@ import PageNav from "../components/PageNav";
 
 import useAuth from "../hooks/useAuth";
 import { useNavigate } from "react-router-dom";
+import Button from "../components/Button";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
   const [email, setEmail] = useState("jack@example.com");
   const [password, setPassword] = useState("qwerty");
   const navigate = useNavigate();
-  const { login, logout, isAuthenticated } = useAuth();
+  const { login, isAuthenticated } = useAuth();
 
   useEffect(
     function () {
@@ -21,6 +22,11 @@ export default function Login() {
     [navigate, isAuthenticated]
   );
 
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    if (email && password) login(email, password);
+  }
   return (
     <main className={styles.login}>
       <PageNav />
@@ -47,7 +53,9 @@ export default function Login() {
 
         <div>
           {!isAuthenticated && (
-            <button onClick={() => login(email, password)}>Login</button>
+            <Button type="primary" onClick={handleSubmit}>
+              Login
+            </Button>
           )}
         </div>
       </form>
