@@ -18,11 +18,14 @@ const Calculator = memo(function Calculator({ workouts, allowSound }) {
     [number, sets, speed, durationBreak]
   );
 
-  useEffect(function () {
-    if (!allowSound) return;
-    const sound = new Audio(clickSound);
-    sound.play();
-  });
+  useEffect(
+    function () {
+      if (!allowSound) return;
+      const sound = new Audio(clickSound);
+      sound.play();
+    },
+    [duration]
+  );
 
   function handleInc() {
     setDuration(Math.floor(duration) + 1);
