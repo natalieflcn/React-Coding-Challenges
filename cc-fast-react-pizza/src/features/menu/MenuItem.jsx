@@ -21,7 +21,7 @@ function MenuItem({ pizza }) {
   return (
     <li className="flex gap-4 py-2">
       <img
-        className={`h-24 ${soldOut ? "opacity-70-grayscale" : ""}`}
+        className={`h-24 ${soldOut ? "opacity-75 grayscale" : ""}`}
         src={imageUrl}
         alt={name}
       />
